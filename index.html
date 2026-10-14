@@ -1,6 +1,231 @@
-<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#20342d"><meta name="google-site-verification" content="U0IPtkBYGSWpQV62N5irLdcI1GaqbqPIm6IY8KSqvbw" /><title>Ulvi Çapkın | İstanbul Etkinlik, İşletme ve Proje Geliştirme</title><meta name="description" content="Ulvi Çapkın; İstanbul'da etkinlik, işletme, konsept ve proje geliştirme çalışmalarıyla Rüya Gemisi, Pera House, Abone Pera, Gaia, TersanePera ve Arde'yi bir araya getirir."><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://ulvicapkin.github.io/"><meta property="og:type" content="website"><meta property="og:locale" content="tr_TR"><meta property="og:title" content="Ulvi Çapkın | İstanbul Etkinlik, İşletme ve Proje Geliştirme"><meta property="og:description" content="Rüya Gemisi, Pera House, Abone Pera, Gaia, TersanePera ve Arde Doğal Ürünler."><meta property="og:url" content="https://ulvicapkin.github.io/"><meta name="twitter:card" content="summary"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://ulvicapkin.github.io/#website","url":"https://ulvicapkin.github.io/","name":"Ulvi Çapkın","inLanguage":"tr-TR"},{"@type":"Person","@id":"https://ulvicapkin.github.io/#person","name":"Ulvi Çapkın","url":"https://ulvicapkin.github.io/","knowsAbout":["Hospitality management","Etkinlik organizasyonu","İşletme geliştirme","Konsept geliştirme","Dijital sanat","Doğal ürünler"]}]}</script><style>html,body{margin:0;background:#f1e9df;color:#20342d;font-family:Arial,sans-serif}.loading{min-height:100vh;display:grid;place-items:center;text-align:center;padding:24px}.loading h1{font:600 24px/1.2 Georgia,serif;letter-spacing:.12em;margin:0}.loading p{max-width:760px;margin:14px auto 0;line-height:1.6;color:#5d675f}.seo-links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 16px;margin-top:18px}.seo-links a{color:#20342d;font-size:12px;text-decoration:none;border-bottom:1px solid #8d9a91}</style></head><body><main class="loading"><div><h1>ULVİ ÇAPKIN</h1><small>Site yükleniyor…</small><p>İstanbul'da etkinlik, işletme, konsept, organizasyon ve proje geliştirme. Rüya Gemisi, Pera House, Abone Pera, Gaia, TersanePera ve Arde Doğal Ürünler için ayrı bilgi sayfalarını keşfedin.</p><nav class="seo-links" aria-label="Projeler"><a href="/ruya-gemisi/">Rüya Gemisi</a><a href="/pera-house/">Pera House</a><a href="/abone-pera/">Abone Pera</a><a href="/gaia/">Gaia</a><a href="/tersanepera/">TersanePera</a><a href="/arde-dogal-urunler/">Arde Doğal Ürünler</a></nav></div></main><script>
-const ROOT='runtime/';
-const BASES=['https://raw.githubusercontent.com/ulvicapkin/ulvicapkin.github.io/bccd5b4df61bb8f766109edd70c8992f14926848/index.html','https://cdn.jsdelivr.net/gh/ulvicapkin/ulvicapkin.github.io@bccd5b4df61bb8f766109edd70c8992f14926848/index.html'];
-async function txt(u){const r=await fetch(u,{cache:u.startsWith(ROOT)?'no-store':'force-cache'});if(!r.ok)throw Error(r.status);return r.text()}
-async function oldBase(){for(const u of BASES){try{return await txt(u)}catch(e){}}throw Error('base')}
-(async()=>{try{const [t0,t1,pera,base]=await Promise.all([txt(ROOT+'template0.txt'),txt(ROOT+'template1.txt'),txt(ROOT+'pera.txt'),oldBase()]);const d=new DOMParser().parseFromString(base,'text/html');const srcs=[...d.querySelectorAll('img')].map(x=>x.getAttribute('src')).filter(Boolean);if(srcs.length<6)throw Error('images');let h=t0+t1;for(let i=0;i<6;i++)h=h.split('@@IMG'+i+'@@').join(srcs[i]);h=h.split('@@IMG6@@').join(pera);document.open();document.write(h);document.close()}catch(e){document.body.innerHTML='<main class="loading"><div><h1>ULVİ ÇAPKIN</h1><p>Sayfa yüklenemedi. Lütfen yenileyin.</p></div></main>'}})();</script></body></html>
+<!DOCTYPE html>
+
+<html lang="tr"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#20342d" name="theme-color"/><meta name="robots" content="index,follow,max-image-preview:large"/><meta name="description" content="İstanbul’da etkinlik, işletme ve konsept geliştirme. Rüya Gemisi, Pera House, Abone Pera, Gaia, TersanePera ve Arde Doğal Ürünler."/>
+<title>Ulvi Çapkın | İstanbul Etkinlik, İşletme ve Proje Geliştirme</title><meta property="og:type" content="website"/><meta property="og:locale" content="tr_TR"/><meta property="og:title" content="Ulvi Çapkın | İstanbul Etkinlik, İşletme ve Proje Geliştirme"/><meta property="og:description" content="Rüya Gemisi, Pera House, Abone Pera, Gaia, TersanePera ve Arde Doğal Ürünler."/><meta property="og:url" content="https://ulvicapkin.github.io/"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Ulvi Çapkın","url":"https://ulvicapkin.github.io/"}</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap');
+:root{--paper:#f5f1e9;--ink:#21342d;--forest:#20342d;--sand:#dfd6c8;--gold:#a58960;--muted:#667068}*{box-sizing:border-box}
+html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 'DM Sans',Arial,sans-serif}a{color:inherit}a:focus-visible{outline:2px solid #a58960;outline-offset:4px}
+.serif,h1,h2,h3{font-family:'Playfair Display',Georgia,serif;font-weight:400;letter-spacing:-.035em}
+header{position:relative;z-index:2;background:var(--paper);border-bottom:1px solid #ddd6c9}.nav{max-width:1450px;margin:auto;padding:22px 5%;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{text-decoration:none;font:600 23px/1.1 'Playfair Display',Georgia,serif;letter-spacing:.12em;white-space:nowrap}.brand small{display:block;font:600 9px/2 'DM Sans',sans-serif;letter-spacing:.33em;color:#8c7859}
+.links{display:flex;gap:24px;flex-wrap:wrap;align-items:center}.links a{text-decoration:none;font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase}.links a:hover{color:#9c784b}
+.hero{background:var(--forest);color:#f5f1e9;display:grid;grid-template-columns:49% 51%;min-height:620px}.hero-copy{padding:105px max(45px,8vw) 90px;display:flex;flex-direction:column;justify-content:center}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:#bca27b;margin:0 0 25px}.hero h1{font-size:clamp(54px,6.4vw,103px);line-height:1.05;margin:0 0 32px}.hero p:not(.eyebrow){max-width:480px;font-size:16px;line-height:1.9;color:#e2dfd7}
+.hero-image{position:relative;overflow:hidden;background:#172922}.hero-image img{height:100%;width:100%;position:absolute;inset:0;object-fit:cover;object-position:center 57%;filter:brightness(.85)}
+.hero-image:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(32,52,45,.25),transparent 40%)}.hero-image .photo-tag{position:absolute;bottom:28px;right:35px;color:white;font-size:11px;letter-spacing:.18em;text-transform:uppercase}
+.button{display:inline-flex;align-items:center;justify-content:center;gap:14px;padding:14px 23px;border:1px solid currentColor;text-decoration:none;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;transition:.2s}.button:hover{background:var(--ink);color:white;border-color:var(--ink)}.hero .button:hover{background:#f5f1e9;color:var(--forest)}
+.intro{max-width:1200px;margin:0 auto;padding:100px 5% 85px;display:grid;grid-template-columns:1fr 1.25fr;gap:80px;align-items:center}.intro h2{font-size:clamp(38px,4vw,61px);line-height:1.17;margin:0}.intro p{font-size:17px;color:#58665e}
+.section-head{max-width:1300px;margin:0 auto;padding:0 5% 30px;display:flex;justify-content:space-between;align-items:end;gap:20px}.section-head h2{font-size:clamp(36px,4vw,56px);margin:0}.section-head p{margin:0;color:#778079;font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.showcase{max-width:1300px;margin:0 auto;padding:0 5% 100px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.card{background:#fffdf8;min-width:0}.card-image{height:380px;overflow:hidden;background:#e6e0d5;position:relative}.card-image img{width:100%;height:100%;object-fit:cover;transition:transform .6s}.card:hover .card-image img{transform:scale(1.035)}.card-image .index{position:absolute;top:20px;left:22px;background:#f5f1e9;padding:8px 12px;font-size:11px;letter-spacing:.15em}
+.card-body{padding:35px 37px 40px}.card-body .eyebrow{margin-bottom:12px;color:#8c7859}.card h3{font-size:38px;margin:0 0 14px;line-height:1.2}.card p{margin:0 0 24px;color:#667068;max-width:480px}.card .button{margin:4px 8px 0 0}.card-wide{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}.card-wide .card-image{height:470px}.card-wide .card-body{display:flex;flex-direction:column;justify-content:center;padding:55px 9%}
+.card.arde .card-image img,.card.gaia .card-image img{object-position:center 46%}.card.abone .card-image img{object-position:center 55%}.card.tersane .card-image img{object-position:center 42%}
+.note{background:#e7e0d4;padding:78px 5%;text-align:center}.note h2{font-size:clamp(34px,4vw,55px);margin:0 auto 20px;max-width:750px}.note p{max-width:700px;margin:auto;color:#606a61}
+footer{background:#20342d;color:#e9e5da;padding:45px 5%}.footer-inner{max-width:1300px;margin:auto;display:flex;justify-content:space-between;gap:25px;align-items:center;flex-wrap:wrap}footer a{font-size:12px;text-decoration:none}footer .copyright{color:#a9b4a8;font-size:11px}
+@media(max-width:950px){.links{gap:13px}.links a{font-size:10px}.hero{min-height:520px}.hero-copy{padding:70px 8%}.card-image{height:300px}}
+@media(max-width:700px){.nav{padding:18px 6%;align-items:flex-start;flex-direction:column}.links{gap:10px 17px}.hero{grid-template-columns:1fr}.hero-copy{padding:60px 7% 50px}.hero h1{font-size:59px}.hero-image{min-height:390px}.intro{padding:68px 7%;grid-template-columns:1fr;gap:16px}.section-head{padding:0 7% 25px;align-items:start;flex-direction:column}.showcase{padding:0 7% 65px;grid-template-columns:1fr;gap:22px}.card-image{height:310px}.card-body{padding:28px}.card h3{font-size:32px}.card-wide{grid-column:auto;display:block}.card-wide .card-image{height:330px}.card-wide .card-body{padding:28px}.note{padding:60px 7%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card-image img{transition:none}}
+
+/* Soho House inspired editorial treatment; original brand imagery */
+:root{--paper:#f1e9df;--ink:#2e2924;--forest:#222e28;--gold:#b49a72}
+body{background:var(--paper)}.hero{background:#292d26}.nav{padding-top:26px;padding-bottom:26px}
+.hero-copy{background:radial-gradient(circle at 0 0,#4c3c36 0%,#292d26 66%)}
+.hero-image img{filter:brightness(.86) saturate(.8)}
+.hero h1{font-size:clamp(49px,5.5vw,88px)}
+.card{background:#faf6f0}.card-image{background:#1b2420}.card-body{background:#faf6f0}
+.card.arde .card-image,.card.gaia .card-image{background:#101a15}
+.card.arde .card-image img,.card.gaia .card-image img{object-fit:contain;padding:65px 15%;filter:none}
+.card.abone .card-image img{object-position:center center}
+.card-wide .card-image img{object-position:center 55%}
+.intro{border-bottom:1px solid #d6c9ba;margin-bottom:75px}
+@media(max-width:700px){.hero-image{min-height:360px}.hero h1{font-size:54px}.card.arde .card-image img,.card.gaia .card-image img{padding:55px 17%}.intro{margin-bottom:50px}}
+
+/* Final mobile corrections: preserve supplied imagery, correct navigation and order */
+.brand small{display:none!important}
+.card-image img,.card-wide .card-image img,.card.abone .card-image img,.card.tersane .card-image img,.hero-image img{object-fit:contain!important;object-position:center!important;filter:none!important;transform:none!important}
+.card-image,.hero-image{background:#252a24!important}
+.card-image img{padding:10px!important}
+.card.arde .card-image img,.card.gaia .card-image img{padding:24px!important}
+.hero-image img{padding:0!important}
+.card:hover .card-image img{transform:none!important}
+@media(max-width:700px){.nav{gap:12px}.brand{font-size:22px}.links{gap:10px 16px}.links a{font-size:10px}.hero h1{font-size:clamp(38px,10vw,52px)!important;line-height:1.13}.hero-copy{padding:44px 7% 40px}.hero-image{min-height:330px}.card-image,.card-wide .card-image{height:340px!important}.card-body{padding:25px}.intro{padding-top:55px;padding-bottom:55px}}
+
+/* Gaia: real rooftop sunset photograph; Arde: stronger brand presence */
+.card.gaia .card-image{background:#302b24!important}
+.card.gaia .card-image img{width:100%;height:100%;object-fit:contain!important;padding:0!important;filter:none!important}
+.card.arde{border:2px solid #b49a72;box-shadow:0 10px 30px rgba(36,30,23,.09)}
+.card.arde .card-body{background:#f3e7d5}
+.card.arde h3{font-size:clamp(38px,3.8vw,52px);color:#20342d;line-height:1.15}
+.card.arde .eyebrow{color:#81613b;font-weight:700}
+.card.arde .button{background:#20342d;color:#fff;border-color:#20342d}
+.card.arde .button:hover{background:#42584a}
+
+/* Final mobile-first editorial refinement */
+.hero{min-height:0;grid-template-columns:42% 58%}
+.hero-copy{padding:58px 7%;justify-content:center}
+.hero h1{font-size:clamp(32px,3.5vw,54px);line-height:1.22;max-width:570px;margin:0 0 30px}
+.hero-image{min-height:520px}
+.section-head{padding-top:76px}
+@media(max-width:700px){
+.nav{gap:15px;padding:20px 6%}
+.brand{font-size:22px}
+.links{display:grid;grid-template-columns:repeat(3,max-content);gap:9px 18px}
+.links a{font-size:10px;letter-spacing:.03em}
+.hero{display:flex;flex-direction:column}
+.hero-image{order:0;min-height:330px}
+.hero-copy{order:1;padding:33px 7% 40px}
+.hero h1{font-size:clamp(29px,7.5vw,39px);line-height:1.22;margin:0 0 22px}
+.hero .button{font-size:10px}
+.section-head{padding-top:52px}
+}
+
+/* Gaia photograph brought closer within its existing card */
+.card.gaia .card-image img{object-fit:cover!important;object-position:center 46%!important;transform:scale(1.035)}
+@media(max-width:700px){.card.gaia .card-image img{object-fit:cover!important;transform:scale(1.02)}}
+
+/* Approved mobile navigation: natural widths and consistent spacing */
+@media(max-width:700px){
+ .nav{gap:20px!important}
+ .links{display:flex!important;flex-wrap:wrap!important;justify-content:flex-start!important;align-items:center!important;column-gap:18px!important;row-gap:16px!important;width:100%!important}
+ .links a{flex:none!important;white-space:nowrap!important;font-size:clamp(9px,2.7vw,11px)!important;letter-spacing:0!important}
+}
+
+/* ARDE PRODUCT PREVIEW — does not change the approved site structure */
+.arde-products{margin-top:28px;padding-top:25px;border-top:1px solid #cdbb9f}
+.arde-products-label{margin:0 0 14px!important;color:#81613b!important;font-size:11px!important;font-weight:700;text-transform:uppercase;letter-spacing:.14em}
+.arde-product-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.arde-product{border:1px solid #d8c7ad;background:#fbf6ed;padding:16px 15px;min-height:132px;display:flex;flex-direction:column}
+.arde-product-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.arde-product strong{font-size:16px;line-height:1.3;color:#20342d;font-weight:600}
+.arde-product-top span{font-size:11px;color:#86765f;white-space:nowrap}
+.arde-product-price{font-size:20px;margin:10px 0 12px;color:#2e2924;font-weight:600}
+.arde-order-link{margin-top:auto;font-size:11px;text-decoration:none;color:#20342d;border-bottom:1px solid #20342d;width:max-content;padding-bottom:2px}
+.arde-order-link:hover{opacity:.65}
+@media(max-width:700px){
+  .arde-product-grid{grid-template-columns:1fr}
+  .arde-product{min-height:118px}
+}
+
+/* ULVI ABOUT PREVIEW — mevcut tasarım korunarak */
+.ulvi-about{padding:86px 7%;background:#efe4d1;border-top:1px solid #d4c2a8}
+.ulvi-about-inner{max-width:900px;margin:0 auto;text-align:center}
+.ulvi-about .eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#7a664b;margin-bottom:18px}
+.ulvi-about h2{margin:0;font-size:clamp(28px,4vw,50px);line-height:1.18;font-weight:500;color:#20342d}
+@media(max-width:700px){
+  .ulvi-about{padding:58px 7%}
+  .ulvi-about h2{font-size:30px}
+}
+
+/* PERA HOUSE — ONLY PREVIEW, approved site design preserved */
+.pera-house-preview{
+  padding:84px 7%;
+  background:#f5f0e6;
+  border-top:1px solid #d7c8ae;
+  border-bottom:1px solid #d7c8ae;
+}
+.pera-house-inner{
+  max-width:920px;
+  margin:0 auto;
+  text-align:center;
+}
+.pera-house-logo-wrap{
+  max-width:560px;
+  margin:0 auto 16px;
+}
+.pera-house-logo-wrap img{
+  display:block;
+  width:100%;
+  height:auto;
+  mix-blend-mode:multiply;
+}
+.pera-house-tagline{
+  margin-top:4px;
+  font-size:11px;
+  line-height:1.5;
+  letter-spacing:.18em;
+  color:#6f665c;
+}
+.pera-house-desc{
+  max-width:680px;
+  margin:22px auto 0!important;
+  font-size:18px!important;
+  line-height:1.55!important;
+  color:#2b2926!important;
+}
+@media(max-width:700px){
+  .pera-house-preview{padding:58px 7%}
+  .pera-house-logo-wrap{max-width:360px;margin-bottom:12px}
+  .pera-house-tagline{font-size:9px;letter-spacing:.13em}
+  .pera-house-desc{font-size:16px!important;margin-top:18px!important}
+}
+x;line-height:1.3;color:#20342d;font-weight:600}
+.arde-product-top span{font-size:11px;color:#86765f;white-space:nowrap}
+.arde-product-price{font-size:20px;margin:10px 0 12px;color:#2e2924;font-weight:600}
+.arde-order-link{margin-top:auto;font-size:11px;text-decoration:none;color:#20342d;border-bottom:1px solid #20342d;width:max-content;padding-bottom:2px}
+.arde-order-link:hover{opacity:.65}
+@media(max-width:700px){
+  .arde-product-grid{grid-template-columns:1fr}
+  .arde-product{min-height:118px}
+}
+
+/* ULVI ABOUT PREVIEW — mevcut tasarım korunarak */
+.ulvi-about{padding:86px 7%;background:#efe4d1;border-top:1px solid #d4c2a8}
+.ulvi-about-inner{max-width:900px;margin:0 auto;text-align:center}
+.ulvi-about .eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#7a664b;margin-bottom:18px}
+.ulvi-about h2{margin:0;font-size:clamp(28px,4vw,50px);line-height:1.18;font-weight:500;color:#20342d}
+@media(max-width:700px){
+  .ulvi-about{padding:58px 7%}
+  .ulvi-about h2{font-size:30px}
+}
+
+/* PERA HOUSE — ONLY PREVIEW, approved site design preserved */
+.pera-house-preview{
+  padding:84px 7%;
+  background:#f5f0e6;
+  border-top:1px solid #d7c8ae;
+  border-bottom:1px solid #d7c8ae;
+}
+.pera-house-inner{
+  max-width:920px;
+  margin:0 auto;
+  text-align:center;
+}
+.pera-house-logo-wrap{
+  max-width:560px;
+  margin:0 auto 16px;
+}
+.pera-house-logo-wrap img{
+  display:block;
+  width:100%;
+  height:auto;
+  mix-blend-mode:multiply;
+}
+.pera-house-tagline{
+  margin-top:4px;
+  font-size:11px;
+  line-height:1.5;
+  letter-spacing:.18em;
+  color:#6f665c;
+}
+.pera-house-desc{
+  max-width:680px;
+  margin:22px auto 0!important;
+  font-size:18px!important;
+  line-height:1.55!important;
+  color:#2b2926!important;
+}
+@media(max-width:700px){
+  .pera-house-preview{padding:58px 7%}
+  .pera-house-logo-wrap{max-width:360px;margin-bottom:12px}
+  .pera-house-tagline{font-size:9px;letter-spacing:.13em}
+  .pera-house-desc{font-size:16px!important;margin-top:18px!important}
+}
+</style><link href="https://ulvicapkin.github.io/" rel="canonical"/><meta name="google-site-verification" content="U0IPtkBYGSWpQV62N5irLdcI1GaqbqPIm6IY8KSqvbw" /><meta property="og:image" content="https://ulvicapkin.github.io/assets/ruya-gemisi.webp"/><meta property="og:image:alt" content="Rüya Gemisi İstanbul Boğazı teknesi"/><meta name="twitter:card" content="summary_large_image"/><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"/></head><body>
+<header><nav aria-label="Ana menü" class="nav"><a class="brand" href="#">ULVİ ÇAPKIN<small></small></a><div class="links"><a href="#ruya">Rüya Gemisi</a><a href="#abone">Abone Pera</a><a href="#gaia">Gaia</a><a href="#pera-house">Pera House</a><a href="#tersane">TersanePera</a><a href="#arde">Arde Doğal Ürünler</a></div></nav></header>
+<main><section class="hero"><div class="hero-copy"><h1>Her mekânın bir hikâyesi, her buluşmanın bir anlamı var.</h1><div><a class="button" href="#deneyimler">İncele ↗</a></div></div><div class="hero-image"><img alt="Rüya Gemisi İstanbul Boğazı teknesi" fetchpriority="high" loading="eager" src="/assets/ruya-gemisi.webp" width="709" height="720" decoding="async"/><span class="photo-tag">Rüya Gemisi · İstanbul</span></div></section>
+<div class="section-head" id="deneyimler"><div><h2>Keşfedin</h2></div></div>
+<section aria-label="Markalar" class="showcase">
+<article class="card card-wide" id="ruya"><div class="card-image"><img alt="Rüya Gemisi tekne görünümü" loading="lazy" src="/assets/ruya-gemisi.webp" width="709" height="720" decoding="async"/><span class="index">01 / DENİZ</span></div><div class="card-body"><p class="eyebrow">Boğaz’da özel anlar</p><h3>Rüya Gemisi</h3><p>İstanbul Boğazı’nda yemekli turlar, kurumsal organizasyonlar, özel davetler ve grup buluşmaları.</p><p><strong>Adres:</strong> Cevdet Paşa Caddesi No: 135, Bebek Suda Tur, İstanbul.</p><div><a class="button" href="https://wa.me/905338579560?text=Merhaba%2C%20R%C3%BCya%20Gemisi%20i%C3%A7in%20rezervasyon%20bilgisi%20almak%20istiyorum.%0AEtkinlik%20t%C3%BCr%C3%BC%3A%0ATarih%3A%0AKi%C5%9Fi%20say%C4%B1s%C4%B1%3A" rel="noopener noreferrer" target="_blank">WhatsApp ile rezervasyon ↗</a></div></div></article><article class="card abone" id="abone"><div class="card-image"><img alt="Abone Pera teras ve davet ortamı" loading="lazy" src="/assets/abone-pera.webp" width="709" height="685" decoding="async"/><span class="index">02 / GECE</span></div><div class="card-body"><p class="eyebrow">Asmalımescit’te yemek, müzik ve eğlence.</p><h3>Abone Pera</h3><p>Asmalımescit’in gece hayatında eğlence, müzik ve keyifli buluşmalar için bir adres.</p><p><strong>Adres:</strong> Asmalı Mescit Mahallesi, Oteller Sokak, Voir Hotel Terası, Beyoğlu / İstanbul.</p><a class="button" href="https://wa.me/905338579560?text=Merhaba%2C%20Abone%20Pera%20i%C3%A7in%20rezervasyon%20istiyorum.%0ATarih%3A%0AKi%C5%9Fi%20say%C4%B1s%C4%B1%3A" rel="noopener noreferrer" target="_blank">WhatsApp ile rezervasyon ↗</a></div></article><article class="card gaia" id="gaia"><div class="card-image"><img alt="Gaia Cocktail Bar gün batımında kokteyller, orijinal mekân fotoğrafı" loading="lazy" src="/assets/gaia.webp" width="709" height="858" decoding="async"/><span class="index">03 / KOKTEYL</span></div><div class="card-body"><p class="eyebrow">Gün batımı · Kokteyl</p><h3>Gaia</h3><p>Haliç manzaralı terasta gün batımı kokteylleri. Meşrutiyet Caddesi No:55, Asmalımescit.</p><a class="button" href="https://wa.me/905376483390?text=Merhaba%2C%20GAIA%20i%C3%A7in%20rezervasyon%20istiyorum.%0ATarih%3A%0AKi%C5%9Fi%20say%C4%B1s%C4%B1%3A" rel="noopener noreferrer" target="_blank">WhatsApp ile rezervasyon ↗</a></div></article><article class="card tersane" id="tersane"><div class="card-image"><img alt="TersanePera Bodrum soyut sanat eseri" loading="lazy" src="/assets/tersanepera.webp" width="1024" height="1536" decoding="async"/><span class="index">04 / SANAT</span></div><div class="card-body"><p class="eyebrow">Hidden Türkiye · Dijital sanat</p><h3>TersanePera</h3><p>Türkiye’nin dokularından ilham alan özgün dijital sanat eserleri. Etsy mağazasında keşfedin.</p><a class="button" href="https://www.etsy.com/shop/TersanePera" rel="noopener noreferrer" target="_blank">Etsy mağazasına git ↗</a></div></article></section><section class="pera-house-preview" id="pera-house"><div class="pera-house-inner"><div class="pera-house-logo-wrap"><img alt="Pera House" src="/assets/pera-house.webp" width="1200" height="400" decoding="async"/></div><div class="pera-house-tagline">HOSPITALITY · MANAGEMENT · CONCEPTS · EVENTS</div><p class="pera-house-desc">Pera House, otel, restoran ve teraslar için konsept geliştirir; işletme düzenini, hizmet akışını ve etkinlik programlarını birlikte planlar. Mekânın kimliğini güçlendirmeyi, misafir deneyimini iyileştirmeyi ve sürdürülebilir gelir oluşturmayı hedefler.</p><p><strong>Adres:</strong> Asmalı Mescit, Beyoğlu / İstanbul.</p><p>Kurucu: Mehmet Onaran.</p><p>Projenizi birlikte değerlendirelim.</p><a class="button" href="https://wa.me/905376483390?text=Merhaba%20Mehmet%20Bey%2C%20Pera%20House%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." rel="noopener noreferrer" target="_blank">WhatsApp’tan ulaş ↗</a></div></section><section aria-label="Doğal Ürünler" class="showcase"><article class="card arde" id="arde"><div class="card-image"><img alt="Arde Doğal Ürünler altın yaprak amblemi" loading="lazy" src="/assets/arde.webp" width="330" height="222" decoding="async"/><span class="index">05 / DOĞAL</span></div><div class="card-body"><p class="eyebrow">Nazilli · Aydın</p><h3>Arde Doğal Ürünler</h3><p>Aydın’ın Nazilli ilçesinden doğal ürünler. Ege’nin bereketli topraklarından gelen lezzetleri keşfedin. Siparişler doğrudan Nazilli mağazasına ulaşır.</p><p><strong>Mağaza adresi:</strong> Altıntaş Mahallesi, 324. Sokak No: 9/A, Nazilli / Aydın.</p><div class="arde-products"><p class="arde-products-label">Ürünler</p><div class="arde-product-grid"><div class="arde-product"><div class="arde-product-top"><strong>Saç Bakım Yağı</strong><span>100 cc</span></div><div class="arde-product-price">300 TL</div><a class="arde-order-link" href="https://wa.me/905369451936?text=Merhaba%2C%20Arde%20Do%C4%9Fal%20%C3%9Cr%C3%BCnler%27den%20Sa%C3%A7%20Bak%C4%B1m%20Ya%C4%9F%C4%B1%20%28100%20cc%29%20sipari%C5%9F%20vermek%20istiyorum." rel="noopener noreferrer" target="_blank">WhatsApp’tan sipariş ver →</a></div><div class="arde-product"><div class="arde-product-top"><strong>Kaş &amp; Kirpik Bakım Yağı</strong><span>50 cc</span></div><div class="arde-product-price">200 TL</div><a class="arde-order-link" href="https://wa.me/905369451936?text=Merhaba%2C%20Arde%20Do%C4%9Fal%20%C3%9Cr%C3%BCnler%27den%20Ka%C5%9F%20%26%20Kirpik%20Bak%C4%B1m%20Ya%C4%9F%C4%B1%20%2850%20cc%29%20sipari%C5%9F%20vermek%20istiyorum." rel="noopener noreferrer" target="_blank">WhatsApp’tan sipariş ver →</a></div><div class="arde-product"><div class="arde-product-top"><strong>Masaj Yağı</strong></div><div class="arde-product-price">300 TL</div><a class="arde-order-link" href="https://wa.me/905369451936?text=Merhaba%2C%20Arde%20Do%C4%9Fal%20%C3%9Cr%C3%BCnler%27den%20Masaj%20Ya%C4%9F%C4%B1%20sipari%C5%9F%20vermek%20istiyorum." rel="noopener noreferrer" target="_blank">WhatsApp’tan sipariş ver →</a></div><div class="arde-product"><div class="arde-product-top"><strong>Bitkisel Bakım Kremi</strong><span>100 ml</span></div><div class="arde-product-price">300 TL</div><a class="arde-order-link" href="https://wa.me/905369451936?text=Merhaba%2C%20Arde%20Do%C4%9Fal%20%C3%9Cr%C3%BCnler%27den%20Bitkisel%20Bak%C4%B1m%20Kremi%20%28100%20ml%29%20sipari%C5%9F%20vermek%20istiyorum." rel="noopener noreferrer" target="_blank">WhatsApp’tan sipariş ver →</a></div><div class="arde-product"><div class="arde-product-top"><strong>Bitkisel Karışım Pekmezi</strong><span>800 ml</span></div><div class="arde-product-price">400 TL</div><a class="arde-order-link" href="https://wa.me/905369451936?text=Merhaba%2C%20Arde%20Do%C4%9Fal%20%C3%9Cr%C3%BCnler%27den%20Bitkisel%20Kar%C4%B1%C5%9F%C4%B1m%20Pekmezi%20%28800%20ml%29%20sipari%C5%9F%20vermek%20istiyorum." rel="noopener noreferrer" target="_blank">WhatsApp’tan sipariş ver →</a></div><div class="arde-product"><div class="arde-product-top"><strong>Bitkisel Karışım Macun</strong><span>800 ml</span></div><div class="arde-product-price">500 TL</div><a class="arde-order-link" href="https://wa.me/905369451936?text=Merhaba%2C%20Arde%20Do%C4%9Fal%20%C3%9Cr%C3%BCnler%27den%20Bitkisel%20Kar%C4%B1%C5%9F%C4%B1m%20Macun%20%28800%20ml%29%20sipari%C5%9F%20vermek%20istiyorum." rel="noopener noreferrer" target="_blank">WhatsApp’tan sipariş ver →</a></div><div class="arde-product"><div class="arde-product-top"><strong>Bitkisel Karışım Yağı</strong><span>300 ml</span></div><div class="arde-product-price">500 TL</div><a class="arde-order-link" href="https://wa.me/905369451936?text=Merhaba%2C%20Arde%20Do%C4%9Fal%20%C3%9Cr%C3%BCnler%27den%20Bitkisel%20Kar%C4%B1%C5%9F%C4%B1m%20Ya%C4%9F%C4%B1%20%28300%20ml%29%20sipari%C5%9F%20vermek%20istiyorum." rel="noopener noreferrer" target="_blank">WhatsApp’tan sipariş ver →</a></div><div class="arde-product"><div class="arde-product-top"><strong>Ayak &amp; Tırnak Bakım Yağı</strong><span>50 cc</span></div><div class="arde-product-price">250 TL</div><a class="arde-order-link" href="https://wa.me/905369451936?text=Merhaba%2C%20Arde%20Do%C4%9Fal%20%C3%9Cr%C3%BCnler%27den%20Ayak%20%26%20T%C4%B1rnak%20Bak%C4%B1m%20Ya%C4%9F%C4%B1%20%2850%20cc%29%20sipari%C5%9F%20vermek%20istiyorum." rel="noopener noreferrer" target="_blank">WhatsApp’tan sipariş ver →</a></div></div></div></div></article></section><section class="note"><p class="eyebrow">Bağlantı kurun</p><h2>Doğrudan iletişime geçin.</h2><p>Rezervasyon ve sipariş için doğrudan ilgili işletmeyle iletişime geçebilirsiniz.</p></section></main>
+<section class="ulvi-about" id="ulvi"><div class="ulvi-about-inner"><div class="eyebrow">ULVİ ÇAPKIN</div><h2>Doğru iş birliklerini, güçlü projeleri ve özgün fikirleri bir araya getiren bir yapı.</h2></div></section><footer><div class="footer-inner"><a class="brand" href="#">ULVİ ÇAPKIN<small></small></a><span class="copyright">© 2026 ULVİ ÇAPKIN · Tüm hakları saklıdır.</span><a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false">Yukarı ↑</a></div></footer></body></html>
