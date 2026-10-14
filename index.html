@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Ulvi Çapkın — Rüya Gemisi ile Boğaz organizasyonları, Arde Doğal Ürünler ile iş birliği ve TersanePera Etsy mağazasında dijital sanat.">
-<meta name="theme-color" content="#f7f4ed">
-<title>Ulvi Çapkın</title>
+<meta name="theme-color" content="#edf5fa">
+<title>Rüya Gemisi · Arde Doğal Ürünler · TersanePera</title>
 <style>
 :root{color-scheme:light;--paper:#f7f4ed;--ink:#302f2a;--muted:#68665d;--line:#ded9cc;--olive:#626d53}
 *{box-sizing:border-box}
@@ -32,40 +32,55 @@ a:focus-visible{outline:2px solid var(--olive);outline-offset:6px}
 footer{border-top:1px solid var(--line);padding-block:28px 36px;color:var(--muted);font-size:14px}
 @media(max-width:700px){.wrap{padding-inline:24px}header{padding-block:22px}.hero{padding-block:54px 46px}.about,.feature{grid-template-columns:1fr;gap:12px}section{padding-block:36px}.feature{padding-block:40px}h2{margin-bottom:14px}.caption{max-width:100%;font-size:19px}p{font-size:16px;line-height:1.8}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Brand-led layout */
+:root{--paper:#edf5fa;--ink:#203642;--muted:#506775;--line:#cadbe5;--olive:#155d77}
+.wrap{max-width:1240px;padding-inline:40px}
+header{border:0;padding-block:28px}
+nav{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+nav a{padding:10px 18px;border:1px solid #ccdfe9;border-radius:999px;background:#fff;color:#294754;text-decoration:none;font-size:14px;font-weight:600}
+.feature{position:relative;overflow:hidden;border:0;border-radius:28px;padding:64px 52px;margin-bottom:24px;gap:48px;box-shadow:0 12px 32px #26475409}
+.feature>div{position:relative;z-index:1}
+.sea{background:#d8ecf6;color:#163e56}
+.sea::before{content:"";position:absolute;width:500px;height:500px;border:60px solid #b6dced;border-radius:50%;left:-200px;bottom:-380px;pointer-events:none}
+.nature{background:#e3efe7;color:#294839}
+.nature::before{content:"";position:absolute;width:300px;height:450px;border:2px solid #bed6c8;border-radius:100% 0 100% 0;left:-100px;bottom:-280px;transform:rotate(-15deg)}
+.art{background:#ede9f7;color:#403653}
+.art::before{content:"";position:absolute;width:260px;height:260px;background:#dcd2ef;transform:rotate(30deg);left:-100px;bottom:-180px;border-radius:30px}
+h1{font-size:clamp(64px,8vw,108px);line-height:.94;margin-bottom:28px}
+h2{font-size:clamp(38px,4.5vw,58px)}
+.kicker{text-transform:uppercase;letter-spacing:.16em;font-size:11px;font-weight:700;margin-bottom:22px;opacity:.7}
+.caption{font-size:23px;color:inherit;opacity:.85}
+.shop-link{background:#fff;padding:13px 20px;border-radius:12px;text-decoration:none;box-shadow:0 3px 12px #2036420a}
+.copy p{font-size:16px;line-height:1.85}
+.about{background:#fff;border:0;border-radius:28px;padding:46px;margin-bottom:28px}
+.about h2{font-size:34px}
+footer{text-align:center;border:0;padding:10px 0 32px;font-size:12px}
+@media(max-width:700px){.wrap{padding-inline:16px}header{padding-block:18px}nav{gap:6px}nav a{font-size:11px;padding:9px 11px}.feature{padding:34px 26px;border-radius:22px;gap:24px;margin-bottom:16px}.about{padding:30px 26px;border-radius:22px;gap:16px}h1{font-size:70px}h2{font-size:42px}.caption{font-size:20px}.copy p{font-size:15px}.shop-link{font-size:14px}}
 </style>
 </head>
 <body>
 <div class="wrap">
-<header><div class="wordmark">Ulvi Çapkın</div></header>
+<header><nav aria-label="Markalar"><a href="#ruya">Rüya Gemisi</a><a href="#arde">Arde Doğal Ürünler</a><a href="#tersane">TersanePera</a></nav></header>
 <main>
-<div class="hero">
-<h1>Ulvi Çapkın</h1>
-<p class="lead">Boğaz’da bir buluşma, doğadan gelen bir ürün, bir yerin ruhunu taşıyan bir eser.</p>
-</div>
-<section class="about" aria-labelledby="about-title">
-<h2 id="about-title">Hakkımızda</h2>
-<div class="copy">
-<p>Ulvi Çapkın çatısı altında, insanları bir araya getiren organizasyonlar, doğal ürünlere yönelik iş birlikleri ve dijital sanat alanında çalışıyoruz. Birbirinden farklı bu alanlarda bizi birleştiren anlayış; yaptığımız işe özen göstermek, açık iletişim kurmak ve güvene dayalı ilişkiler geliştirmek.</p>
-<p>Rüya Gemisi ile İstanbul Boğazı’nda kurumsal ve özel gruplara yönelik buluşmalar hazırlıyor, Arde Doğal Ürünler ile ürünleri tüketiciyle buluşturmak için iş birliği yapıyoruz. TersanePera Etsy mağazamızda ise Türkiye’nin farklı köşelerinden ilham alan dijital sanat eserleri sunuyoruz.</p>
-<p>Her çalışmayı kendi ihtiyaçları ve karakteriyle ele alıyoruz. İnsanların beklentilerini dinlemeye, ayrıntıları dikkatle planlamaya ve süreci anlaşılır biçimde yürütmeye önem veriyoruz.</p>
-</div>
-</section>
-<section class="feature" aria-labelledby="ruya-title">
-<div><h2 id="ruya-title">Rüya Gemisi</h2><p class="caption">İstanbul’a bir de Boğaz’dan bakın.</p></div>
+
+
+<section class="feature sea" id="ruya" aria-labelledby="ruya-title">
+<div><p class="kicker">İstanbul Boğazı’nda</p><h1 id="ruya-title">Rüya<br>Gemisi</h1><p class="caption">İstanbul’a bir de Boğaz’dan bakın.</p></div>
 <div class="copy">
 <p>İstanbul Boğazı’nın manzarasında, kurumsal ve özel gruplar için yemekli turlar ve organizasyonlar hazırlıyoruz. Şirket ve bayi yemekleri, müşteri ağırlama, ekip buluşmaları ve özel kutlamalar için grubun beklentilerine uygun programlar üzerinde çalışıyoruz.</p>
 <p>Tarih, katılımcı sayısı, menü, içecek tercihleri ve masa düzenini etkinliğin amacına göre birlikte değerlendiriyoruz. Bir iş buluşmasını ya da özel bir kutlamayı, Boğaz’ın atmosferiyle tamamlayan bir deneyime dönüştürmeyi amaçlıyoruz.</p>
 </div>
 </section>
-<section class="feature" aria-labelledby="arde-title">
-<div><h2 id="arde-title">Arde Doğal Ürünler</h2><p class="caption">Doğal ürünleri tüketiciyle buluşturan bir iş birliği.</p></div>
+<section class="feature nature" id="arde" aria-labelledby="arde-title">
+<div><p class="kicker">Doğadan yaşamınıza</p><h2 id="arde-title">Arde Doğal Ürünler</h2><p class="caption">Doğal ürünleri tüketiciyle buluşturan bir iş birliği.</p></div>
 <div class="copy">
 <p>Arde Doğal Ürünler markasıyla, doğal ürünlerin tanıtılması ve tüketicilere ulaştırılması için iş birliği yapıyoruz.</p>
-<p>Ürünler hakkında açık ve anlaşılır bilgi sunmaya, tüketicilerin ihtiyaçlarını dinlemeye ve doğru iletişim kurmaya önem veriyoruz. Bu iş birliğini, markayla tüketici arasında güvene dayalı ve uzun vadeli bir bağ geliştirme anlayışıyla yürütüyoruz.</p>
+<p>Ürünler hakkında açık ve anlaşılır bilgi sunmaya, tüketicilerin ihtiyaçlarını dinlemeye ve doğru iletişim kurmaya önem veriyoruz. Bu iş birliğini, markayla tüketici arasında güvene dayalı ve uzun vadeli bir bağ geliştirme anlayışıyla yürütüyoruz.</p><a class="shop-link" href="https://www.instagram.com/ar_de.dogalurunler/" target="_blank" rel="noopener noreferrer">Arde’yi Instagram’da keşfedin ↗</a>
 </div>
 </section>
-<section class="feature" aria-labelledby="tersane-title">
-<div><h2 id="tersane-title">TersanePera</h2><p class="caption">Bir yerin ruhu, duvarınızda yeni bir anlam bulsun.</p></div>
+<section class="feature art" id="tersane" aria-labelledby="tersane-title">
+<div><p class="kicker">Hidden Türkiye · Etsy</p><h2 id="tersane-title">TersanePera</h2><p class="caption">Bir yerin ruhu, duvarınızda yeni bir anlam bulsun.</p></div>
 <div class="copy">
 <p>TersanePera, dijital sanat çalışmalarımızı sunduğumuz Etsy mağazamız. Türkiye’nin kıyıları, mimarisi, renkleri ve doğal dokuları, eserlerimizin çıkış noktasını oluşturuyor.</p>
 <p>Hidden Türkiye koleksiyonunda Bodrum ve Cunda gibi yerlerden aldığımız ilhamı soyut kompozisyonlar ve çağdaş bir görsel anlatımla yorumluyoruz. Her eserde, bir yerin görünüşünün yanı sıra hissettirdiği duyguyu da aktarmayı amaçlıyoruz.</p>
@@ -73,8 +88,15 @@ footer{border-top:1px solid var(--line);padding-block:28px 36px;color:var(--mute
 <a class="shop-link" href="https://www.etsy.com/shop/TersanePera" target="_blank" rel="noopener noreferrer">Etsy mağazamızı keşfedin ↗</a>
 </div>
 </section>
-</main>
-<footer>Ulvi Çapkın</footer>
+<section class="about" aria-labelledby="about-title">
+<h2 id="about-title">Hakkımızda</h2>
+<div class="copy">
+<p> insanları bir araya getiren organizasyonlar, doğal ürünlere yönelik iş birlikleri ve dijital sanat alanında çalışıyoruz. Birbirinden farklı bu alanlarda bizi birleştiren anlayış; yaptığımız işe özen göstermek, açık iletişim kurmak ve güvene dayalı ilişkiler geliştirmek.</p>
+<p>Rüya Gemisi ile İstanbul Boğazı’nda kurumsal ve özel gruplara yönelik buluşmalar hazırlıyor, Arde Doğal Ürünler ile ürünleri tüketiciyle buluşturmak için iş birliği yapıyoruz. TersanePera Etsy mağazamızda ise Türkiye’nin farklı köşelerinden ilham alan dijital sanat eserleri sunuyoruz.</p>
+<p>Her çalışmayı kendi ihtiyaçları ve karakteriyle ele alıyoruz. İnsanların beklentilerini dinlemeye, ayrıntıları dikkatle planlamaya ve süreci anlaşılır biçimde yürütmeye önem veriyoruz.</p>
+</div>
+</section></main>
+<footer>Rüya Gemisi · Arde Doğal Ürünler · TersanePera</footer>
 </div>
 </body>
 </html>
