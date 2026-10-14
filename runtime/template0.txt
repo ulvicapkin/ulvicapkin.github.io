@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="tr"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#20342d" name="theme-color"/><meta content="ULVİ ÇAPKIN — İstanbul'da Boğaz deneyimleri, gece hayatı, doğal ürünler ve özgün sanat." name="description"/>
+<title>ULVİ ÇAPKIN | Rüya Gemisi · Abone Pera · Gaia · TersanePera · Arde Doğal Ürünler</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap');
+:root{--paper:#f5f1e9;--ink:#21342d;--forest:#20342d;--sand:#dfd6c8;--gold:#a58960;--muted:#667068}*{box-sizing:border-box}
+html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 'DM Sans',Arial,sans-serif}a{color:inherit}a:focus-visible{outline:2px solid #a58960;outline-offset:4px}
+.serif,h1,h2,h3{font-family:'Playfair Display',Georgia,serif;font-weight:400;letter-spacing:-.035em}
+header{position:relative;z-index:2;background:var(--paper);border-bottom:1px solid #ddd6c9}.nav{max-width:1450px;margin:auto;padding:22px 5%;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{text-decoration:none;font:600 23px/1.1 'Playfair Display',Georgia,serif;letter-spacing:.12em;white-space:nowrap}.brand small{display:block;font:600 9px/2 'DM Sans',sans-serif;letter-spacing:.33em;color:#8c7859}
+.links{display:flex;gap:24px;flex-wrap:wrap;align-items:center}.links a{text-decoration:none;font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase}.links a:hover{color:#9c784b}
+.hero{background:var(--forest);color:#f5f1e9;display:grid;grid-template-columns:49% 51%;min-height:620px}.hero-copy{padding:105px max(45px,8vw) 90px;display:flex;flex-direction:column;justify-content:center}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:#bca27b;margin:0 0 25px}.hero h1{font-size:clamp(54px,6.4vw,103px);line-height:1.05;margin:0 0 32px}.hero p:not(.eyebrow){max-width:480px;font-size:16px;line-height:1.9;color:#e2dfd7}
+.hero-image{position:relative;overflow:hidden;background:#172922}.hero-image img{height:100%;width:100%;position:absolute;inset:0;object-fit:cover;object-position:center 57%;filter:brightness(.85)}
+.hero-image:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(32,52,45,.25),transparent 40%)}.hero-image .photo-tag{position:absolute;bottom:28px;right:35px;color:white;font-size:11px;letter-spacing:.18em;text-transform:uppercase}
+.button{display:inline-flex;align-items:center;justify-content:center;gap:14px;padding:14px 23px;border:1px solid currentColor;text-decoration:none;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;transition:.2s}.button:hover{background:var(--ink);color:white;border-color:var(--ink)}.hero .button:hover{background:#f5f1e9;color:var(--forest)}
+.intro{max-width:1200px;margin:0 auto;padding:100px 5% 85px;display:grid;grid-template-columns:1fr 1.25fr;gap:80px;align-items:center}.intro h2{font-size:clamp(38px,4vw,61px);line-height:1.17;margin:0}.intro p{font-size:17px;color:#58665e}
+.section-head{max-width:1300px;margin:0 auto;padding:0 5% 30px;display:flex;justify-content:space-between;align-items:end;gap:20px}.section-head h2{font-size:clamp(36px,4vw,56px);margin:0}.section-head p{margin:0;color:#778079;font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.showcase{max-width:1300px;margin:0 auto;padding:0 5% 100px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.card{background:#fffdf8;min-width:0}.card-image{height:380px;overflow:hidden;background:#e6e0d5;position:relative}.card-image img{width:100%;height:100%;object-fit:cover;transition:transform .6s}.card:hover .card-image img{transform:scale(1.035)}.card-image .index{position:absolute;top:20px;left:22px;background:#f5f1e9;padding:8px 12px;font-size:11px;letter-spacing:.15em}
+.card-body{padding:35px 37px 40px}.card-body .eyebrow{margin-bottom:12px;color:#8c7859}.card h3{font-size:38px;margin:0 0 14px;line-height:1.2}.card p{margin:0 0 24px;color:#667068;max-width:480px}.card .button{margin:4px 8px 0 0}.card-wide{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}.card-wide .card-image{height:470px}.card-wide .card-body{display:flex;flex-direction:column;justify-content:center;padding:55px 9%}
+.card.arde .card-image img,.card.gaia .card-image img{object-position:center 46%}.card.abone .card-image img{object-position:center 55%}.card.tersane .card-image img{object-position:center 42%}
+.note{background:#e7e0d4;padding:78px 5%;text-align:center}.note h2{font-size:clamp(34px,4vw,55px);margin:0 auto 20px;max-width:750px}.note p{max-width:700px;margin:auto;color:#606a61}
+footer{background:#20342d;color:#e9e5da;padding:45px 5%}.footer-inner{max-width:1300px;margin:auto;display:flex;justify-content:space-between;gap:25px;align-items:center;flex-wrap:wrap}footer a{font-size:12px;text-decoration:none}footer .copyright{color:#a9b4a8;font-size:11px}
+@media(max-width:950px){.links{gap:13px}.links a{font-size:10px}.hero{min-height:520px}.hero-copy{padding:70px 8%}.card-image{height:300px}}
+@media(max-width:700px){.nav{padding:18px 6%;align-items:flex-start;flex-direction:column}.links{gap:10px 17px}.hero{grid-template-columns:1fr}.hero-copy{padding:60px 7% 50px}.hero h1{font-size:59px}.hero-image{min-height:390px}.intro{padding:68px 7%;grid-template-columns:1fr;gap:16px}.section-head{padding:0 7% 25px;align-items:start;flex-direction:column}.showcase{padding:0 7% 65px;grid-template-columns:1fr;gap:22px}.card-image{height:310px}.card-body{padding:28px}.card h3{font-size:32px}.card-wide{grid-column:auto;display:block}.card-wide .card-image{height:330px}.card-wide .card-body{padding:28px}.note{padding:60px 7%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card-image img{transition:none}}
+
+/* Soho House inspired editorial treatment; original brand imagery */
+:root{--paper:#f1e9df;--ink:#2e2924;--forest:#222e28;--gold:#b49a72}
+body{background:var(--paper)}.hero{background:#292d26}.nav{padding-top:26px;padding-bottom:26px}
+.hero-copy{background:radial-gradient(circle at 0 0,#4c3c36 0%,#292d26 66%)}
+.hero-image img{filter:brightness(.86) saturate(.8)}
+.hero h1{font-size:clamp(49px,5.5vw,88px)}
+.card{background:#faf6f0}.card-image{background:#1b2420}.card-body{background:#faf6f0}
+.card.arde .card-image,.card.gaia .card-image{background:#101a15}
+.card.arde .card-image img,.card.gaia .card-image img{object-fit:contain;padding:65px 15%;filter:none}
+.card.abone .card-image img{object-position:center center}
+.card-wide .card-image img{object-position:center 55%}
+.intro{border-bottom:1px solid #d6c9ba;margin-bottom:75px}
+@media(max-width:700px){.hero-image{min-height:360px}.hero h1{font-size:54px}.card.arde .card-image img,.card.gaia .card-image img{padding:55px 17%}.intro{margin-bottom:50px}}
+
+/* Final mobile corrections: preserve supplied imagery, correct navigation and order */
+.brand small{display:none!important}
+.card-image img,.card-wide .card-image img,.card.abone .card-image img,.card.tersane .card-image img,.hero-image img{object-fit:contain!important;object-position:center!important;filter:none!important;transform:none!important}
+.card-image,.hero-image{background:#252a24!important}
+.card-image img{padding:10px!important}
+.card.arde .card-image img,.card.gaia .card-image img{padding:24px!important}
+.hero-image img{padding:0!important}
+.card:hover .card-image img{transform:none!important}
+@media(max-width:700px){.nav{gap:12px}.brand{font-size:22px}.links{gap:10px 16px}.links a{font-size:10px}.hero h1{font-size:clamp(38px,10vw,52px)!important;line-height:1.13}.hero-copy{padding:44px 7% 40px}.hero-image{min-height:330px}.card-image,.card-wide .card-image{height:340px!important}.card-body{padding:25px}.intro{padding-top:55px;padding-bottom:55px}}
+
+/* Gaia: real rooftop sunset photograph; Arde: stronger brand presence */
+.card.gaia .card-image{background:#302b24!important}
+.card.gaia .card-image img{width:100%;height:100%;object-fit:contain!important;padding:0!important;filter:none!important}
+.card.arde{border:2px solid #b49a72;box-shadow:0 10px 30px rgba(36,30,23,.09)}
+.card.arde .card-body{background:#f3e7d5}
+.card.arde h3{font-size:clamp(38px,3.8vw,52px);color:#20342d;line-height:1.15}
+.card.arde .eyebrow{color:#81613b;font-weight:700}
+.card.arde .button{background:#20342d;color:#fff;border-color:#20342d}
+.card.arde .button:hover{background:#42584a}
+
+/* Final mobile-first editorial refinement */
+.hero{min-height:0;grid-template-columns:42% 58%}
+.hero-copy{padding:58px 7%;justify-content:center}
+.hero h1{font-size:clamp(32px,3.5vw,54px);line-height:1.22;max-width:570px;margin:0 0 30px}
+.hero-image{min-height:520px}
+.section-head{padding-top:76px}
+@media(max-width:700px){
+.nav{gap:15px;padding:20px 6%}
+.brand{font-size:22px}
+.links{display:grid;grid-template-columns:repeat(3,max-content);gap:9px 18px}
+.links a{font-size:10px;letter-spacing:.03em}
+.hero{display:flex;flex-direction:column}
+.hero-image{order:0;min-height:330px}
+.hero-copy{order:1;padding:33px 7% 40px}
+.hero h1{font-size:clamp(29px,7.5vw,39px);line-height:1.22;margin:0 0 22px}
+.hero .button{font-size:10px}
+.section-head{padding-top:52px}
+}
+
+/* Gaia photograph brought closer within its existing card */
+.card.gaia .card-image img{object-fit:cover!important;object-position:center 46%!important;transform:scale(1.035)}
+@media(max-width:700px){.card.gaia .card-image img{object-fit:cover!important;transform:scale(1.02)}}
+
+/* Approved mobile navigation: natural widths and consistent spacing */
+@media(max-width:700px){
+ .nav{gap:20px!important}
+ .links{display:flex!important;flex-wrap:wrap!important;justify-content:flex-start!important;align-items:center!important;column-gap:18px!important;row-gap:16px!important;width:100%!important}
+ .links a{flex:none!important;white-space:nowrap!important;font-size:clamp(9px,2.7vw,11px)!important;letter-spacing:0!important}
+}
+
+/* ARDE PRODUCT PREVIEW — does not change the approved site structure */
+.arde-products{margin-top:28px;padding-top:25px;border-top:1px solid #cdbb9f}
+.arde-products-label{margin:0 0 14px!important;color:#81613b!important;font-size:11px!important;font-weight:700;text-transform:uppercase;letter-spacing:.14em}
+.arde-product-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.arde-product{border:1px solid #d8c7ad;background:#fbf6ed;padding:16px 15px;min-height:132px;display:flex;flex-direction:column}
+.arde-product-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.arde-product strong{font-size:16p
