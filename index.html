@@ -1,13 +1,80 @@
 <!doctype html>
-<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Ulvi Çapkın — Rüya Gemisi, Arde ve TersanePera."><title>Ulvi Çapkın</title>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Ulvi Çapkın — Rüya Gemisi ile Boğaz organizasyonları, Arde Doğal Ürünler ile iş birliği ve TersanePera Etsy mağazasında dijital sanat.">
+<meta name="theme-color" content="#f7f4ed">
+<title>Ulvi Çapkın</title>
 <style>
-:root{color-scheme:dark;--bg:#101827;--panel:#1b2a40;--line:#42516b;--muted:#b8c7db;--accent:#a8d9d0}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#f3f5fa;font:16px/1.6 system-ui}header,main,footer{max-width:1120px;margin:auto;padding:24px}header{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line)}h1{margin:0;font-size:28px}h2{margin:0 0 12px;font-size:22px}h3{margin:12px 0 4px;font-size:16px}p{margin:8px 0}small,.muted{color:var(--muted)}nav{display:flex;gap:16px;flex-wrap:wrap}a{color:var(--accent)}.intro{padding:12px 0 28px}.eyebrow{color:var(--accent);letter-spacing:.1em;font-size:12px;text-transform:uppercase}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px}.project{border-top:3px solid var(--accent)}.project:nth-child(2){border-top-color:#d5bc85}.project:nth-child(3){border-top-color:#c4aff0}ul{padding-left:20px}li{margin:6px 0}.count{font-size:14px;color:var(--accent)}button,input,select{font:inherit;border-radius:9px;padding:10px 12px;border:1px solid #647891;background:#263850;color:white}button{cursor:pointer}button.primary{background:#28645c;border-color:#74afa5}button:hover{filter:brightness(1.15)}:focus-visible{outline:3px solid #bdebe2;outline-offset:3px}input,select{width:100%;min-width:0}label{display:block;font-size:14px}.form-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin:16px 0}.toolbar{display:flex;gap:12px;align-items:end;flex-wrap:wrap;margin:20px 0}.toolbar label{flex:1;min-width:160px}.toolbar button{flex-shrink:0}.task{display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-top:1px solid var(--line)}.task p{overflow-wrap:anywhere}.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.done{text-decoration:line-through;color:var(--muted)}section{scroll-margin-top:20px}.tasks-section{margin-top:28px}.badge{display:inline-block;font-size:12px;padding:3px 8px;background:#263850;border-radius:6px;margin:4px 6px 0 0}.backup{margin-top:24px}.status{min-height:26px;color:var(--accent)}footer{font-size:13px}#import-file{max-width:280px}@media(max-width:800px){.grid{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}header{align-items:start;flex-direction:column}.task{flex-direction:column}main,header,footer{padding:18px}}
-</style></head><body>
-<header><div><h1>Ulvi Çapkın</h1><small>Rüya Gemisi · Arde · TersanePera</small></div><nav aria-label="Ana menü"><a href="#projects">Projeler</a></nav></header>
-<main><div class="intro"><p class="eyebrow">Üç proje · Tek merkez</p><h2>Ulvi Çapkın</h2><p class="muted">Organizasyon, doğal ürünler ve dijital sanat projeleri.</p></div>
-<section class="grid" id="projects" aria-label="Projeler">
-<article class="card project"><p class="eyebrow">Boğaz organizasyonları</p><h2>Rüya Gemisi</h2><p>Kurumsal ve özel gruplar için yemekli Boğaz turları ve organizasyonlar.</p></article>
-<article class="card project"><p class="eyebrow">Doğal ürünler</p><h2>Arde</h2><p>Aydın Nazilli merkezli doğal ürünler projesi.</p></article>
-<article class="card project"><p class="eyebrow">Dijital sanat</p><h2>TersanePera</h2><p>Hidden Türkiye koleksiyonu ve dijital sanat çalışmaları.</p></article>
+:root{color-scheme:light;--paper:#f7f4ed;--ink:#302f2a;--muted:#68665d;--line:#ded9cc;--olive:#626d53}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:auto;padding-inline:48px}
+header{padding-block:30px;border-bottom:1px solid var(--line)}
+.wordmark{font-size:21px;font-weight:600;letter-spacing:-.04em}
+.hero{padding-block:76px 68px;max-width:830px}
+h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.045em}
+h1{font-size:clamp(52px,8vw,94px);line-height:1.06;margin:0 0 24px}
+.lead{font-size:clamp(19px,2.5vw,25px);line-height:1.6;max-width:690px;color:var(--muted);margin:0}
+section{border-top:1px solid var(--line);padding-block:48px}
+.about{display:grid;grid-template-columns:1fr 2fr;gap:48px}
+h2{font-size:clamp(32px,4vw,46px);line-height:1.15;margin:0 0 24px}
+p{font-size:17px;line-height:1.85;margin:0 0 18px}
+p:last-child{margin-bottom:0}
+.copy{max-width:700px}
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;padding-block:64px}
+.caption{font-size:21px;line-height:1.55;color:var(--olive);max-width:340px}
+a{color:var(--olive);text-decoration-thickness:1px;text-underline-offset:5px}
+.shop-link{display:inline-block;margin-top:12px;font-size:16px;font-weight:600}
+a:focus-visible{outline:2px solid var(--olive);outline-offset:6px}
+footer{border-top:1px solid var(--line);padding-block:28px 36px;color:var(--muted);font-size:14px}
+@media(max-width:700px){.wrap{padding-inline:24px}header{padding-block:22px}.hero{padding-block:54px 46px}.about,.feature{grid-template-columns:1fr;gap:12px}section{padding-block:36px}.feature{padding-block:40px}h2{margin-bottom:14px}.caption{max-width:100%;font-size:19px}p{font-size:16px;line-height:1.8}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="wordmark">Ulvi Çapkın</div></header>
+<main>
+<div class="hero">
+<h1>Ulvi Çapkın</h1>
+<p class="lead">Boğaz’da bir buluşma, doğadan gelen bir ürün, bir yerin ruhunu taşıyan bir eser.</p>
+</div>
+<section class="about" aria-labelledby="about-title">
+<h2 id="about-title">Hakkımızda</h2>
+<div class="copy">
+<p>Ulvi Çapkın çatısı altında, insanları bir araya getiren organizasyonlar, doğal ürünlere yönelik iş birlikleri ve dijital sanat alanında çalışıyoruz. Birbirinden farklı bu alanlarda bizi birleştiren anlayış; yaptığımız işe özen göstermek, açık iletişim kurmak ve güvene dayalı ilişkiler geliştirmek.</p>
+<p>Rüya Gemisi ile İstanbul Boğazı’nda kurumsal ve özel gruplara yönelik buluşmalar hazırlıyor, Arde Doğal Ürünler ile ürünleri tüketiciyle buluşturmak için iş birliği yapıyoruz. TersanePera Etsy mağazamızda ise Türkiye’nin farklı köşelerinden ilham alan dijital sanat eserleri sunuyoruz.</p>
+<p>Her çalışmayı kendi ihtiyaçları ve karakteriyle ele alıyoruz. İnsanların beklentilerini dinlemeye, ayrıntıları dikkatle planlamaya ve süreci anlaşılır biçimde yürütmeye önem veriyoruz.</p>
+</div>
 </section>
-</main><footer>Ulvi Çapkın</footer></body></html>
+<section class="feature" aria-labelledby="ruya-title">
+<div><h2 id="ruya-title">Rüya Gemisi</h2><p class="caption">İstanbul’a bir de Boğaz’dan bakın.</p></div>
+<div class="copy">
+<p>İstanbul Boğazı’nın manzarasında, kurumsal ve özel gruplar için yemekli turlar ve organizasyonlar hazırlıyoruz. Şirket ve bayi yemekleri, müşteri ağırlama, ekip buluşmaları ve özel kutlamalar için grubun beklentilerine uygun programlar üzerinde çalışıyoruz.</p>
+<p>Tarih, katılımcı sayısı, menü, içecek tercihleri ve masa düzenini etkinliğin amacına göre birlikte değerlendiriyoruz. Bir iş buluşmasını ya da özel bir kutlamayı, Boğaz’ın atmosferiyle tamamlayan bir deneyime dönüştürmeyi amaçlıyoruz.</p>
+</div>
+</section>
+<section class="feature" aria-labelledby="arde-title">
+<div><h2 id="arde-title">Arde Doğal Ürünler</h2><p class="caption">Doğal ürünleri tüketiciyle buluşturan bir iş birliği.</p></div>
+<div class="copy">
+<p>Arde Doğal Ürünler markasıyla, doğal ürünlerin tanıtılması ve tüketicilere ulaştırılması için iş birliği yapıyoruz.</p>
+<p>Ürünler hakkında açık ve anlaşılır bilgi sunmaya, tüketicilerin ihtiyaçlarını dinlemeye ve doğru iletişim kurmaya önem veriyoruz. Bu iş birliğini, markayla tüketici arasında güvene dayalı ve uzun vadeli bir bağ geliştirme anlayışıyla yürütüyoruz.</p>
+</div>
+</section>
+<section class="feature" aria-labelledby="tersane-title">
+<div><h2 id="tersane-title">TersanePera</h2><p class="caption">Bir yerin ruhu, duvarınızda yeni bir anlam bulsun.</p></div>
+<div class="copy">
+<p>TersanePera, dijital sanat çalışmalarımızı sunduğumuz Etsy mağazamız. Türkiye’nin kıyıları, mimarisi, renkleri ve doğal dokuları, eserlerimizin çıkış noktasını oluşturuyor.</p>
+<p>Hidden Türkiye koleksiyonunda Bodrum ve Cunda gibi yerlerden aldığımız ilhamı soyut kompozisyonlar ve çağdaş bir görsel anlatımla yorumluyoruz. Her eserde, bir yerin görünüşünün yanı sıra hissettirdiği duyguyu da aktarmayı amaçlıyoruz.</p>
+<p>Dijital olarak indirilebilen çalışmalarımız, evinizde ya da çalışma alanınızda baskı olarak kullanmanız için hazırlanıyor. Böylece size yakın gelen bir yeri, kendi mekânınızın bir parçası hâline getirebilirsiniz.</p>
+<a class="shop-link" href="https://www.etsy.com/shop/TersanePera" target="_blank" rel="noopener noreferrer">Etsy mağazamızı keşfedin ↗</a>
+</div>
+</section>
+</main>
+<footer>Ulvi Çapkın</footer>
+</div>
+</body>
+</html>
