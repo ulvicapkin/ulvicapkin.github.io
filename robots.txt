@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ulvicapkin.github.io/sitemap.xml
